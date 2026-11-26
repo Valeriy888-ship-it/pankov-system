@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /privacy.html
-
-Sitemap: https://valeriy888-ship-it.github.io/pankov-system/sitemap.xml
