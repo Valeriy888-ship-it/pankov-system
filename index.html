@@ -560,7 +560,7 @@
                         </p>
                     </div>
 
-                    <!-- 3D-витрина портрета и ключевых показателей (один главный объемный акцент) -->
+                    <!-- 3D-витрина портрета и ключевых показателей (чистый кадр без перекрытия лица) -->
                     <div class="lg:col-span-5 tilt-stage">
                         <div id="hero-tilt-card" class="tilt-card rounded-3xl bg-[#242D28] p-3 sm:p-3.5">
                             <div class="relative rounded-2xl overflow-hidden bg-[#1D2420]">
@@ -571,24 +571,18 @@
                                      class="w-full h-auto object-cover"
                                      loading="eager"
                                      itemprop="image">
-
-                                <!-- Плавающий 3D-бейдж сверху -->
-                                <div class="tilt-badge-top hidden sm:flex items-center gap-2.5 absolute top-4 left-4 bg-[#181E1B]/85 backdrop-blur-md border border-white/15 rounded-2xl px-3.5 py-2">
-                                    <img src="images/logo.png" alt="" width="28" height="28" class="w-7 h-7 rounded-full object-cover" aria-hidden="true">
-                                    <span class="font-heading text-xs font-bold text-[#F5F0E6]">Инженерный подход</span>
-                                </div>
                             </div>
 
                             <!-- Вынесенная по оси Z плавающая панель цифр -->
-                            <div class="tilt-card-float relative -mt-8 mx-2 sm:mx-3 rounded-2xl bg-[#181E1B]/95 backdrop-blur-xl border border-white/16 px-5 py-4">
-                                <div class="grid grid-cols-2 gap-4">
+                            <div class="tilt-card-float relative -mt-7 mx-2 sm:mx-3 rounded-2xl bg-[#181E1B]/95 backdrop-blur-xl border border-white/16 px-4 sm:px-5 py-4">
+                                <div class="grid grid-cols-2 gap-3 sm:gap-4 items-start">
                                     <div>
-                                        <div class="font-heading text-2xl sm:text-3xl font-black text-orange">150 000+ ₽</div>
-                                        <div class="text-xs sm:text-sm text-[#F5F0E6]/85 mt-0.5">Целевой доход учеников</div>
+                                        <div class="font-heading text-xl sm:text-2xl font-black text-orange whitespace-nowrap">150 000+ ₽</div>
+                                        <div class="text-xs text-[#F5F0E6]/85 mt-1 leading-snug">Целевой доход учеников</div>
                                     </div>
-                                    <div class="border-l border-white/15 pl-4">
-                                        <div class="font-heading text-2xl sm:text-3xl font-black text-[#6EE7A2]">2 месяца</div>
-                                        <div class="text-xs sm:text-sm text-[#F5F0E6]/85 mt-0.5">На выстраивание системы</div>
+                                    <div class="border-l border-white/15 pl-3 sm:pl-4">
+                                        <div class="font-heading text-xl sm:text-2xl font-black text-[#6EE7A2] whitespace-nowrap">2 месяца</div>
+                                        <div class="text-xs text-[#F5F0E6]/85 mt-1 leading-snug">На выстраивание системы</div>
                                     </div>
                                 </div>
                             </div>
